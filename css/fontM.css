@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------font size setting*/
+body { font-size: 1em; }
+.fontSet { width: 125px; }
+/*_*/
+.Topnav { padding: 0; float: left; margin: 0 0px 0 40px }
+@media (max-width:1199px) {
+.Topnav { margin: 0 10px 0 0px }
+}
+/*_*/
+.link_list ul li a { height: 100px; }
+.headline ul li { padding: 12px 0 12px 100px; }
+.headline ul li span { margin: 0 10px 0 -98px; }

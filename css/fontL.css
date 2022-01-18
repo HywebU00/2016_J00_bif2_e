@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------font size setting*/
+body { font-size: 1.125em; }
+.fontSet { width: 130px; }
+ @media (max-width:1199px) and (min-width: 992px) {
+.service ul li a { padding: 3px 10px 3px 75px; height: 60px; }
+}
+/*_*/
+.Topnav { margin: 0 0px 0 40px }
+@media (max-width:1199px) {
+.Topnav { margin: 0 10px 0 0px }
+}
+/*_*/
+.link_list ul li a { height: 130px; }
+.headline ul li { padding: 12px 0 12px 120px; }
+.headline ul li span { margin: 0 10px 0 -110px; }
+/*  */
+.Search .AdvSearch a { padding: 5px 14px 4px; }
+.Search .form-control { width: 150px; color: #7d7d7d; background-color: #e5e5e5; box-shadow: none; font-size: 0.938em; }
