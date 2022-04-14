@@ -2760,15 +2760,21 @@ p {
     vertical-align: middle;
 }
 /*---ul , ol*/
-.cp article ul,
-.cp article ol {
+.cp article ul, .cp article ol {
     margin: .5em 1em;
-    padding: 0;
+   padding-left: 40px;
 }
-.cp article ul li,
-.cp article ol li {
+.cp article ul li, .cp article ol li {
     margin: 0 0 .5em 0;
 }
+.cp article ul li{
+    list-style:disc;
+}
+.cp article ol li{
+    list-style: decimal;
+}
+
+
 /*-------------------------------pubInfo*/
 .cp .pubInfo {
     clear: both;
