@@ -4684,3 +4684,70 @@ button:focus {
     background-color: #fff;
     text-decoration: none
 }
+/* 跑馬燈 */
+.marquee_block {
+    
+    font-size: 1.125em;
+}
+.marquee_block .marquee {
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    margin: 2em 1em;
+    text-align: left;
+    padding: 0 3em 0 2em;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dadada;
+}
+.marquee_block .marquee .slick-prev {
+    right: 0px !important;
+    top: -1px !important;
+    left: auto;
+    display: block;
+    width: 20px !important;
+    height: 20px !important;
+    opacity: .5;
+    /*  border-radius: 50%;
+    min-width: auto; */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background: url('../assets/module/slick/icon_arrow_up_s.png') no-repeat center center;
+    background-size: 16px;
+}
+.marquee_block .marquee .slick-next {
+    right: 0px !important;
+    top: 22px !important;
+    left: auto;
+    display: block;
+    width: 20px !important;
+    height: 20px !important;
+    opacity: .5;
+    /*  border-radius: 50%;
+    min-width: auto; */
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background: url('../assets/module/slick/icon_arrow_up_s.png') no-repeat center center;
+    background-size: 16px;
+}
+.marquee_block .marquee .slick-slider{
+padding: 0;
+}
+.marquee_block .marquee ul li a{
+     display: block;
+        line-height: 40px;
+        margin-right: 3em;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #000;
+      text-decoration: none;
+}
